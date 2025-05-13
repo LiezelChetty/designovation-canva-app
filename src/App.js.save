@@ -1,0 +1,32 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div style={{ textAlign: "center", padding: "40px", fontFamily: "Poppins, sans-serif" }}>
+      <h1 style={{ color: "#000" }}>Design Your Logo Instantly</h1>
+      <p style={{ color: "#555" }}>
+        Create your unique brand identity in seconds with Designovation.
+      </p>
+      <a
+        href="https://designovation.ie"
+        style={{
+          display: "inline-block",
+          marginTop: "20px",
+          padding: "10px 20px",
+          backgroundColor: "#ffcf03",
+          color: "#000",
+          textDecoration: "none",
+          borderRadius: "5px",
+          fontWeight: "bold"
+        }}
+      >
+        Try it now
+      </a>
+    </div>
+  );
+}
+
+export default App;
+
+       
